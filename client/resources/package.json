@@ -1,7 +1,7 @@
 {
 	"name": "FCWangPu.V2.0",
 	"version": "1.0.0",
-	"main": "dist/index.html",
+	"main": "dist/index.html#/login",
 	"manifestUrl": "http://10.4.83.155:3111/nw/package.json",
 	"nodejs": true,
 	"node-main": "main.js",
