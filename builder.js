@@ -3,8 +3,8 @@ var NwBuilder = require('nw-builder');
 var nw = new NwBuilder({
 	files: './client/resources/**', // use the glob format
 	platforms: ['win32'],
-	buildDir: './client/config/dist',
-	cacheDir: './client/config/sdk',
+	buildDir: './client/dist',
+	//cacheDir: './client/sdk',
 	winIco: './client/resources/assets/images/logo.ico',
 	version: '0.25.0'
 });
