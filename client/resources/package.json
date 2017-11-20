@@ -1,0 +1,37 @@
+{
+	"name": "FCWangPu.V2.0",
+	"version": "1.0.0",
+	"main": "dist/index.html",
+	"manifestUrl": "http://10.4.83.155:3111/nw/package.json",
+	"nodejs": true,
+	"node-main": "main.js",
+	"packages": {
+		"mac": {
+			"url": "http://10.4.83.155:3111/nw/updapp.zip"
+		},
+		"win": {
+			"url": "http://fcyun-dev.oss-cn-beijing.aliyuncs.com/FCWangPu.V2.0.zip"
+		},
+		"linux32": {
+			"url": "http://10.4.83.155:3111/nw/updapp.tar.gz"
+		}
+	},
+	"window": {
+		"icon": "assets/images/fcwangpu.png",
+		"toolbar": true,
+		"title": "非常旺铺 非常好生意",
+		"resizeable": false,
+		"frame": true,
+		"min_width": 800,
+		"min_height": 600,
+		"width": 800,
+		"height": 600
+	},
+	"webkit": {
+		"page-cache": true
+	},
+	"devDependencies": {},
+	"dependencies": {
+		"node-webkit-updater": "^0.3.3"
+	}
+}
