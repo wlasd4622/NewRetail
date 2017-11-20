@@ -1,16 +1,13 @@
 .DS_Store
 node_modules/
-sdk/
-dist/
-nw-dist/
+/dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /test/unit/coverage/
 /test/e2e/reports/
-resources/static/
 selenium-debug.log
-.idea
+
 # Editor directories and files
 .idea
 .vscode
